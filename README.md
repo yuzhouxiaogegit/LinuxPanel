@@ -32,3 +32,8 @@ wget https://github.com/yuzhouxiaogegit/LinuxPanel/archive/refs/heads/main.zip
 ```code
 rm -f /www/server/panel/data/bind.pl
   ```
+  
+ # 如果觉得麻烦，干脆就直接安装 5.9 版本
+ ```code
+ yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.sh && sh install.sh
+ ```
