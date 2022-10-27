@@ -37,3 +37,9 @@ rm -f /www/server/panel/data/bind.pl
  ```code
  yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.sh && sh install.sh
  ```
+ ### bbr加速脚本
+ ```code
+ wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh"
+chmod +x tcp.sh
+./tcp.sh
+ ```
