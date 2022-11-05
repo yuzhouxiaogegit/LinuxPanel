@@ -33,9 +33,14 @@ wget https://github.com/yuzhouxiaogegit/LinuxPanel/archive/refs/heads/main.zip
 rm -f /www/server/panel/data/bind.pl
   ```
   
- # 如果觉得麻烦，干脆就直接安装 5.9 版本
+ # 如果觉得麻烦，干脆就直接安装 5.9 版本或者国际版本
+1、5.9版安装脚本
  ```code
  yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.sh && sh install.sh
+ ```
+2、 国际版安装脚本
+  ```code
+ yum install -y wget && wget -O install.sh http://www.aapanel.com/script/install_6.0_en.sh && bash install.sh aapanel
  ```
  ### bbr加速脚本
  ```code
