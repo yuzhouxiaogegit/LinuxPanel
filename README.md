@@ -42,9 +42,18 @@ rm -f /www/server/panel/data/bind.pl
   ```code
  yum install -y wget && wget -O install.sh http://www.aapanel.com/script/install_6.0_en.sh && bash install.sh aapanel
  ```
+#### 删除宝塔中 https 登陆
+```
+rm -f /www/server/panel/data/ssl.pl && /etc/init.d/bt restart
+```
  ### bbr加速脚本
  ```code
  wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh"
 chmod +x tcp.sh
 ./tcp.sh
  ```
+ [bbr加速脚本(新版安装地址)
+](https://github.com/jinwyp/one_click_script) 
+```
+bash <(curl -Lso- https://git.io/kernel.sh)
+```
